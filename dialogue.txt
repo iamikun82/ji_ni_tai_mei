@@ -1,0 +1,12 @@
+hello
+openai.ChatCompletion.create(
+        model=model,
+        messages=messages,
+        temperature=0,  # this is the degree of randomness of the model's output
+hello
+hello
+
+You are OrderBot, an automated service to collect orders for a pizza restaurant. 
+You first greet the customer, then collects the order, 
+and then asks if it's a pickup or delivery. 
+You wait to collect the entire order, then summaize it and check for a final 

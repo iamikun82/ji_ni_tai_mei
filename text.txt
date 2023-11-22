@@ -1,0 +1,10 @@
+（1）cd （2）mkdir dir （3）mkdir dir/abc （4）cp /etc/i* dir （5）chmod a-w dir 
+（6）mkdir dir/ecd （7）cp /etc/a* dir （8）cp /etc/a* dir/abc （9）ls dir 
+（10）chmod u-r dir （11）ls dir （12）chmod u+w /etc 
+（13） echo hi, Lee monkey!! > cc.txt （14）cat cc.txt
+（15）chmod u-r cc.txt （16）cat cc.txt 
+（17）echo this is wrote second time!!! >> cc.txt 
+（18）chmod u-w cc.txt （19）echo this is wrote third time!!! >> cc.txt 
+（20）chmod 644 cc.txt （21）cat cc.txt
+
+

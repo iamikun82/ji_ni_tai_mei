@@ -1,0 +1,27 @@
+def display_pattern(n):
+    if n < 2:
+        print("2")
+        return
+    print(" ".join([str(n)] * n))
+    display_pattern(n - 1)
+
+def f(i):
+    if i == 1:
+        return 1 / 2
+    else:
+        return i / (i + 1) + f(i - 1)
+
+def f(b, index=0):
+    if index == len(b):
+        return 0
+    digit = int(b[index])
+    decimal = digit * (2 ** (len(b) - index - 1))
+    return decimal + f(b, index + 1)
+
+打印:
+n n n ... ... n
+.
+.
+.
+3 3
+2
